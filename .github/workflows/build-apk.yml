@@ -64,7 +64,7 @@ jobs:
           name: "Build #${{ github.run_number }}"
           body: |
             🤖 Built by APKForge AI
-            📦 `com.apkforge.calculator`
+            📦 `com.example.myapp`
           files: app/build/outputs/apk/debug/*.apk
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
